@@ -19,5 +19,5 @@ call mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent verify --settings se
 
 echo ============ mvn sonar:sonar ... =======================================================
 echo . Se analiza y sube a sonar cloud
-call mvn sonar:sonar -Dsonar.organization=jchantej-github -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=5764a3c111aa839db2183baebf4311399ada17b1 --settings settings.xml
+call mvn sonar:sonar -Dsonar.organization=jchantej-github -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=f5d3fe4c796aa769146925ce6cc1c95c9f64f3bc --settings settings.xml
 pause
