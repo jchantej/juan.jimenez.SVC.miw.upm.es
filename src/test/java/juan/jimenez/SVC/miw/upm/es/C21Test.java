@@ -12,12 +12,12 @@ public class C21Test {
     @Test
     public void testC21m1() {
         c21 = new C21();
-        assertEquals("C21.m1", c21.m1());
+        assertEquals("m1", c21.m1());
     }
 
     @Test
     public void testC21m2() {
         c21 = new C21();
-        assertEquals("C21.m2", c21.m2());
+        assertEquals("m2", c21.m2());
     }
 }

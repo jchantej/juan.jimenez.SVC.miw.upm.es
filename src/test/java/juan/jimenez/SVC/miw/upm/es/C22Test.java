@@ -10,7 +10,7 @@ public class C22Test {
     @Test
     public void testC21m1() {
         c22 = new C22();
-        assertEquals("C22.mA" ,c22.mA());
+        assertEquals("mA" ,c22.mA());
     }
 
 }
