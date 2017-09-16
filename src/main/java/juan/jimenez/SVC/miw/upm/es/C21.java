@@ -1,13 +1,13 @@
 package juan.jimenez.SVC.miw.upm.es;
 
 public class C21 {
-    
+
     public String m1() {
-        return "C21.m1";
+        return Thread.currentThread().getStackTrace()[1].getMethodName();
     }
-    
+
     public String m2() {
-        return "C21.m2";
+        return Thread.currentThread().getStackTrace()[1].getMethodName();
     }
 
 }
