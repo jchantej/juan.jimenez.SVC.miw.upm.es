@@ -10,4 +10,8 @@ public class C21 {
         return Thread.currentThread().getStackTrace()[1].getMethodName();
     }
 
+    public String m3() {
+        return Thread.currentThread().getStackTrace()[1].getMethodName();
+    }
+
 }
