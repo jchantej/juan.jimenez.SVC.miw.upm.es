@@ -13,7 +13,8 @@ import org.junit.runners.Suite.SuiteClasses;
     C22Test.class,
     C31Test.class,
     C12Test.class,
-    C32Test.class
+    C32Test.class,
+    C51Test.class
 
 })
 public class AllControlVersionJunitTests {
